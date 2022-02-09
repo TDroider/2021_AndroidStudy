@@ -15,7 +15,7 @@ https://github.com/reactive-streams/reactive-streams-jvm#reactive-streams
 - Publisher(生産者): データを通知する
 - Subscriber(消費者): データを受け取り、処理する
 
-<img src="https://cz-cdn.shoeisha.jp/static/images/article/9699/9699_backpressure_sequence_a.png" width="480" />
+<img src="image/sequence_diagram.png" width="480" />
 
 1. Publisher が通知する準備が整ったことを Subscriber へ通知する（onSubscribe）
 2. Subscriber は受け取るデータ数を併せてリクエストを送る（Subscription#request）
